@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'phonenumber_field',
     #apps
     'apps.contact',
+    'apps.faqs',
 ]
 
 MIDDLEWARE = [
