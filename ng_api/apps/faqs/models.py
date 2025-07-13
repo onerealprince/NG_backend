@@ -8,7 +8,7 @@ Service_CHOICES = [
     ('Other', 'Other'),
 ]
 
-class faqs(models.Model):
+class Faqs(models.Model):
     question = models.CharField()
     answer = models.CharField()
     service = models.CharField(max_length= 50, choices= Service_CHOICES, default= 'Other')

@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import faqs
+from .models import Faqs
 
-@admin.register(faqs)
+@admin.register(Faqs)
 class faqsAdmin(admin.ModelAdmin):
     list_display = ('question', 'answer', 'service')
     search_fields = ('service', 'created_at')
